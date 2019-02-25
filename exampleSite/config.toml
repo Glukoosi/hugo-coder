@@ -4,6 +4,7 @@ title = "johndoe"
 theme = "hugo-coder"
 
 languagecode = "en"
+defaultcontentlanguage = "en"
 
 paginate = 20
 canonifyurls = true
@@ -64,84 +65,61 @@ disqusShortname = "yourdiscussshortname"
     weight = 5
     url = "https://medium.com/@johndoe"
 
-[[menu.main]]
-    name = "Blog"
-    weight = 1
-    url  = "/posts/"
-[[menu.main]]
-    name = "About"
-    weight = 2
-    url = "/about/"
-[[menu.main]]
-    name = "Projects"
-    weight = 3
-    url = "/projects/"
-[[menu.main]]
-    name = "Contact me"
-    weight = 5
-    url = "/contact/"
 
 [languages]
     [languages.en]
-        languagename = "English" # The language name to be displayed in the selector.
-        title = "John Doe"
-
-        # You can configure the theme parameter for each language.
-        [languages.en.params]
-        author = "John Doe"
-        info = "Full Stack DevOps and Magician"
-        description = "John Doe's personal website"
-        keywords = "blog,developer,personal"
-
-        [languages.en.menu] # It is possible to change the menu too.
+        languagename = "English"
 
         [[languages.en.menu.main]]
         name = "About"
-        weight = 1.0
+        weight = 1
         url = "/about/"
 
         [[languages.en.menu.main]]
         name = "Blog"
-        weight = 2.0
+        weight = 2
         url = "/posts/"
 
         [[languages.en.menu.main]]
         name = "Projects"
         weight = 3
         url = "/projects/"
+
         [[languages.en.menu.main]]
         name = "Contact me"
         weight = 5
         url = "/contact/"
 
 
-    [languages.pl]
-        languagename = "Polski"
-        title = "John Doe po polsku"
+    [languages.pt-br]
+        languagename = "Português"
+        title = "João Ninguém"
 
-        [languages.pl.params]
-            author = "John Doe"
-            description = "Strona domowa John'a Doe"
-            keywords = "blog,developer,strona domowa"
-            info = "Full Stack DevOps i Magik"
+        [languages.pt-br.params]
+            author = "João Ninguém"
+            info = "Full Stack DevOps e Mágico"
+            description = "Sítio pessoal de João Ninguém"
+            keywords = "blog,desenvolvedor,pessoal"
+            footercontent = "Coloque algum texto aqui."
 
-        [languages.pl.menu]
+        [languages.pt-br.menu]
 
-            [[languages.pl.menu.main]]
-            name = "O mnie"
-            weight = 1.0
-            url = "/pl/about/"
+            [[languages.pt-br.menu.main]]
+            name = "Sobre"
+            weight = 1
+            url = "/pt-br/about/"
 
-            [[languages.pl.menu.main]]
+            [[languages.pt-br.menu.main]]
             name = "Blog"
-            weight = 2.0
-            url = "/pl/posts/"
+            weight = 2
+            url = "/pt-br/posts/"
 
-            [[languages.pl.menu.main]]
-            name = "projektowanie"
+            [[languages.pt-br.menu.main]]
+            name = "Projetos"
             weight = 3
-            url = "/projektowanie/"
-            [[languages.pl.menu.main]]
-            name = "kontakt"
+            url = "/pt-br/projects/"
+
+            [[languages.pt-br.menu.main]]
+            name = "Contato"
             weight = 5
-            url = "/kontakt/"
+            url = "/pt-br/contact/"
