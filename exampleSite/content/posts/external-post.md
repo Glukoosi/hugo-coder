@@ -11,4 +11,6 @@ categories = [
     "Development",
 ]
 externalLink = "https://github.com/luizdepra/hugo-coder/wiki"
+series = ["Hugo"]
+authors = ["External link test"]
 +++
